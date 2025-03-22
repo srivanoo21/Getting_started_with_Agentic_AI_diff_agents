@@ -1,0 +1,11 @@
+phidata 
+python-dotenv
+yfinance
+duckduckgo-search
+groq
+openai
+agno
+pypdf
+lancedb
+sentence-transformers
+tantivy
