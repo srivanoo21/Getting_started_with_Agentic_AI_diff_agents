@@ -14,7 +14,7 @@ Together, these agents enable a **more intelligent and up-to-date AI system**, o
 
 ## **1️⃣ Agent Components**  
 
-### **🔹 AI-Powered Web Search Agent (`agent.py`)**  
+### **🔹(a) AI-Powered Web Search Agent (`agent.py`)**  
 This agent allows the AI system to **fetch real-time data** using **DuckDuckGo search**. Since LLMs have a **knowledge cutoff**, they **cannot access post-training information**, making real-time search critical for **breaking news, stock updates, and live events**.  
 
 #### **Key Features:**  
@@ -36,7 +36,7 @@ This agent allows the AI system to **fetch real-time data** using **DuckDuckGo s
 
 ---
 
-### **🔹 Multi-Agent Financial & Market Analysis (`multi_agents.py`)**  
+### **🔹(b) Multi-Agent Financial & Market Analysis (`multi_agents.py`)**  
 This Python script creates a **multi-agent system** that combines:  
 ✔ **Web Agent for real-time news & stock market trends**  
 ✔ **Finance Agent for stock prices, fundamentals, and recommendations**  
@@ -62,7 +62,7 @@ By combining these **specialized agents**, the system can provide:
 
 ---
 
-### **🔹 AI Memory & Knowledge Retrieval (`agent_memory.py`)**  
+### **🔹(c) AI Memory & Knowledge Retrieval (`agent_memory.py`)**  
 This agent **enhances AI knowledge retrieval** using **two key components**:  
 1. **Knowledge Base** – Stores structured documents (e.g., PDFs, articles).  
 2. **Vector Database** – Enables **semantic search** (meaning-based retrieval).  
